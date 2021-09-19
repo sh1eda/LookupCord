@@ -9,4 +9,4 @@ A simple javascript code to fetch information about a profile by its ID
 - It will ask for an ID, paste an id and there you go.
 
 ## License
-This repository has been published with MIT License.
+LookupCord is licensed under the MIT License
