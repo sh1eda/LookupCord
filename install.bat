@@ -1,3 +1,3 @@
 @echo off
-title LookupCord - Arcwish
+title LookupCord - Archwish
 npm i
