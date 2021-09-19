@@ -54,8 +54,7 @@ async function getData(id) {
 					  }
 					  catch {
 						  console.log(chalk.red("[ERR] This user has non ascii username."))
-						  var nothing = {}
-						  resolve(nothing)
+						  return
 						  
 					  }
 				  })
