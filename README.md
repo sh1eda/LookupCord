@@ -10,3 +10,6 @@ A simple javascript code to fetch information about a profile by its ID
 
 ## License
 LookupCord is licensed under the MIT License
+
+
+<p align="left"> <img src="https://media.discordapp.net/attachments/863450964807647262/889105527727063061/unknown.png?width=998&height=374" alt="sh1eda" /> </p>
