@@ -1,4 +1,4 @@
 @echo off
-title LookupCord - Arcwish
+title LookupCord - Archwish
 node shieda.js
 pause
