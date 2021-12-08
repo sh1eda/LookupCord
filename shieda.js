@@ -76,7 +76,7 @@ async function getData(id) {
 		var creation = new Date(Snowflake.deconstruct(id).timestamp)
 		var data = await getData(id)
 		var username = "╔════════════════════════════════════╗" + "\n║ID: "+ data.id + "\n║Username: " + data.username + "\n║Discriminator: " + data.discriminator + "\n╚════════════════════════════════════╝\n"
-		var userprofile = "╔════════════════════════════════════╗" + "\n║Avatar: " + data.avatar + "\n║Avatar url: https://cdn.discordapp.com/avatars/" + data.id + "/" + data.avatar + "webp?size=128" + "\n╚════════════════════════════════════╝\n"
+		var userprofile = "╔════════════════════════════════════╗" + "\n║Avatar: " + data.avatar + "\n║Avatar url: https://cdn.discordapp.com/avatars/" + data.id + "/" + data.avatar + ".webp?size=128" + "\n╚════════════════════════════════════╝\n"
 		var otherinfo =  "╔════════════════════════════════════╗" + "\n║Public Flags: " + data.public_flags + "\n║Date of Creation: " + creation + "\n╚════════════════════════════════════╝\n"
 		console.clear()
 		console.log(chalk.magentaBright(`
